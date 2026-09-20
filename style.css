@@ -1,12 +1,12 @@
  :root{
-     --ink:#f3f7f2;
-     --muted:#a9b6ad;
-     --surface:#111b16;
-     --surface-soft:#17251c;
+     --ink:#eef8ff;
+     --muted:#afd0ea;
+     --surface:#101d2b;
+     --surface-soft:#18314a;
      --line:rgba(255,255,255,.1);
-     --accent:#a7f432;
-     --accent-strong:#63d51b;
-     --night:#08100b;
+     --accent:#67d6ff;
+     --accent-strong:#1b84d8;
+     --night:#07141d;
  }
  
  *{
@@ -115,14 +115,14 @@
      border-radius:8px;
      text-decoration:none;
      font-weight:bold;
-     box-shadow:0 10px 24px rgba(167,244,50,.16);
+     box-shadow:0 10px 24px rgba(103,214,255,.16);
      transition:transform .2s ease,background .2s ease,box-shadow .2s ease;
  }
  
 .btn:hover,.buy-btn:hover{
-     background:#c5ff72;
+     background:#bfeeff;
      transform:translateY(-3px);
-     box-shadow:0 14px 28px rgba(167,244,50,.24);
+     box-shadow:0 14px 28px rgba(103,214,255,.24);
  }
  
 .btn:active,.buy-btn:active{transform:translateY(0)}
@@ -134,7 +134,7 @@
  
  .produk{
      padding:clamp(58px,8vw,100px) clamp(20px,6vw,84px);
-     background:radial-gradient(circle at 80% 20%,rgba(99,213,27,.08),transparent 28%),#0b140e;
+     background:radial-gradient(circle at 80% 20%,rgba(27,132,216,.12),transparent 28%),#0b1220;
  }
  
  .produk h2{
@@ -160,7 +160,7 @@
  
  .card:hover{
      transform:translateY(-8px);
-     border-color:rgba(167,244,50,.65);
+     border-color:rgba(103,214,255,.65);
      box-shadow:0 18px 40px rgba(0,0,0,.35);
  }
  
@@ -198,15 +198,15 @@
 .fitur{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
  .fitur div{background:var(--surface-soft);padding:25px;border:1px solid var(--line);border-radius:10px;text-align:center}
 .fitur div{transition:transform .3s ease,border-color .3s ease,background .3s ease}
-.fitur div:hover{transform:translateY(-6px);border-color:rgba(167,244,50,.5);background:#1d3021}
+.fitur div:hover{transform:translateY(-6px);border-color:rgba(103,214,255,.5);background:#1a3249}
  .fitur h3{color:var(--accent);margin-bottom:8px}
  .fitur p{color:var(--muted)}
  
  .promo{
      text-align:center;
      padding:clamp(60px,8vw,95px) 20px;
-     background:linear-gradient(120deg,#274d17,var(--accent-strong));
-     color:#071006;
+     background:linear-gradient(120deg,#163d63,var(--accent-strong));
+     color:#07151e;
  }
  
  .promo h2{font-size:38px}
@@ -216,7 +216,7 @@ footer{background:#050805;text-align:center;padding:45px 20px;line-height:2;colo
 
 .social-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:10px 0 14px}
 .social-links a{display:grid;place-items:center;width:50px;height:48px;border:1px solid var(--line);border-radius:8px;text-decoration:none;transition:border-color .2s ease,transform .2s ease,background .2s ease}
-.social-links a:hover{border-color:var(--accent);background:rgba(167,244,50,.08);transform:translateY(-3px)}
+.social-links a:hover{border-color:var(--accent);background:rgba(103,214,255,.08);transform:translateY(-3px)}
 .social-links img{width:24px;height:24px;display:block}
 
 @keyframes hero-drift{
